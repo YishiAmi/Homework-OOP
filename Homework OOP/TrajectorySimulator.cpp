@@ -30,10 +30,17 @@ float vertical_range(float speed, float launchangle_degree, float x) {
 }
 
 int main() {
-    float speed = 25.0f;
-    float launch_angle = 45.0f;
-    float x = 15.0f; 
+    float speed;
+    float launch_angle;
+    float x;
 
+    cout << "Enter speed (m/s): ";
+    cin >> speed;
+    cout << "Enter launch angle (degrees): ";
+    cin >> launch_angle;
+    cout << "Enter horizontal distance x (m): ";
+    cin >> x;
+    
     cout << "Time of Flight:   " << t_flight(speed, launch_angle) << " s" << endl;
     cout << "Maximum Height:   " << max_height(speed, launch_angle) << " m" << endl;
     cout << "Horizontal Range: " << horizontal_range(speed, launch_angle) << " m" << endl;
