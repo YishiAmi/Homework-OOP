@@ -91,7 +91,7 @@ public class Homework
                     
                     default:
                     Console.WriteLine("Invalid option. Please choose a letter from a to f.");
-                        break;
+                    break;
 
 
                         
