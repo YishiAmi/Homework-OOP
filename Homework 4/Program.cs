@@ -11,8 +11,8 @@
 ● Lecturer
 ● Class
 ● Light
+● Lights
 write dummy classes in C#
-● Light
 */  
 using System;
 using System.Collections.Generic; 
@@ -88,9 +88,6 @@ namespace VirtualClassroom
         public string Subject;
 
     }
-
-
-
 
     public class Class
     {
